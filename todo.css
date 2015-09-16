@@ -1,4 +1,7 @@
-   a {
+    #done {
+      text-decoration: line-through;
+    }
+    a {
       color: white;
     }
     #blue {
@@ -12,9 +15,6 @@
     }
     #low {
       color: gray;
-    }
-    #done {
-      text-decoration: line-through;
     }
     h5 {
       color: #0020C2;
