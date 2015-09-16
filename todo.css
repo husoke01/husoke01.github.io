@@ -1,20 +1,20 @@
-    #done {
-      text-decoration: line-through;
-    }
     a {
       color: white;
     }
-    #blue {
+    .blue {
       color: #0020C2;
     }
-    #hi {
+    .hi {
       color:red;
     }
-    #med {
+    .med {
       color: orange;
     }
-    #low {
+    .low {
       color: gray;
+    }
+    .done {
+      text-decoration: line-through;
     }
     h5 {
       color: #0020C2;
