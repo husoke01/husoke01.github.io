@@ -1,1 +1,27 @@
-
+  .hi {
+    background-color: red;
+  }
+  .med {
+    background-color: orange;
+  }
+  .low {
+    background-color: gray;
+  }
+  .done {
+    background-color: black;
+  }
+  .white {
+    color: White;
+  }
+  .brown {
+    color: #A52A2A;
+  }
+  .black {
+    color: black;
+  }
+  .cyan {
+    color: aqua;
+  }
+  .do {
+    line-through
+  }
