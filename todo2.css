@@ -25,3 +25,15 @@
   .do {
     line-through
   }
+  a {
+      color: white;
+    }
+  h5 {
+      color: #0020C2;
+    }
+  footer {
+      background-color: gray;
+    }
+  nav {
+      background-color: #0020C2;
+    }
