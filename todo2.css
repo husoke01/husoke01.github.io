@@ -23,7 +23,7 @@
     color: aqua;
   }
   .do {
-    line-through
+    text-decoration: line-through;
   }
   a {
       color: white;
