@@ -4,13 +4,13 @@
     height: 50px;
     color: white;
   }
-  #1 {
+  #left {
     float: left;
     width: 50%;
     background-color: #0020C2;
     color: white;
   }
-  #2 {
+  #right {
     float: right;
     width: 50%;
     background-color: white;
