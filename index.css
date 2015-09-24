@@ -3,6 +3,8 @@
     background-color: #0020C2;
     height: 50px;
     width: 100%;
+    outline-color: white;
+    outline-width: thin;
   }
   section#left {
     float: left;
