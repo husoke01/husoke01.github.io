@@ -1,21 +1,24 @@
-  h2  {
-    color: #0020C2;
-  }
-  h1  {
-    color: #0020C2;
-  }
   nav {
+    position: fixed;
     background-color: #0020C2;
-  }
-  a {
+    height: 50px;
     color: white;
   }
-  h5 {
+  #1 {
+    float: left;
+    width: 50%;
+    background-color: #0020C2;
+    color: white;
+  }
+  #2 {
+    float: right;
+    width: 50%;
+    background-color: white;
     color: #0020C2;
   }
   footer {
     background-color: gray;
-  }
-  #blue {
     color: #0020C2;
+    height: 30px;
+    clear: both;
   }
