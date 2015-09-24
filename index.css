@@ -11,12 +11,14 @@
     width: 50%;
     background-color: #0020C2;
     color: white;
+    padding-top: 100px;
   }
   section#right {
     float: right;
     width: 50%;
     background-color: white;
     color: #0020C2;
+    padding-top: 100px;
   }
   footer {
     background-color: gray;
