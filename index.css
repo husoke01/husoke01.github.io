@@ -13,7 +13,7 @@
   section#left {
     float: left;
     height: 1500px;
-    width: 45%;
+    width: 50%;
     background-color: white;
     color: #0020C2;
     padding-top: 150px;
@@ -23,7 +23,7 @@
   section#right {
     float: right;
     height: 1500px;
-    width: 45%;
+    width: 50%;
     background-color: #0020C2;
     color: white;
     padding-top: 50px;
