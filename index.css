@@ -22,3 +22,9 @@
     height: 30px;
     clear: both;
   }
+  .white {
+    color: white;
+  }
+  .blue {
+    color: #0020C2;
+  }
