@@ -4,13 +4,13 @@
     height: 50px;
     color: white;
   }
-  #left {
+  section#left {
     float: left;
     width: 50%;
     background-color: #0020C2;
     color: white;
   }
-  #right {
+  section#right {
     float: right;
     width: 50%;
     background-color: white;
