@@ -6,20 +6,23 @@
     border-style: solid;
     border-width: 5px;
     border-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
   }
   section#left {
     float: left;
     width: 50%;
-    background-color: #0020C2;
-    color: white;
-    padding-top: 100px;
+    background-color: white;
+    color: #0020C2;
+    padding-top: 150px;
   }
   section#right {
     float: right;
     width: 50%;
-    background-color: white;
-    color: #0020C2;
-    padding-top: 100px;
+    background-color: #0020C2;
+    color: white;
+    padding-top: 50px;
   }
   footer {
     background-color: gray;
