@@ -12,17 +12,19 @@
   }
   section#left {
     float: left;
-    height: 1500px;
+    height: 750px;
     width: 50%;
     background-color: white;
     color: #0020C2;
+    padding-top: 30px;
   }
   section#right {
     float: right;
-    height: 1500px;
+    height: 750px;
     width: 50%;
     background-color: #0020C2;
     color: white;
+    padding-top: 30px;
   }
   footer {
     background-color: gray;
