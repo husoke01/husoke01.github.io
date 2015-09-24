@@ -12,7 +12,7 @@
   }
   section#left {
     float: left;
-    height: 5000px;
+    height: 1500px;
     width: 45%;
     background-color: white;
     color: #0020C2;
@@ -23,7 +23,7 @@
   }
   section#right {
     float: right;
-    height: 5000px;
+    height: 1500px;
     width: 45%;
     background-color: #0020C2;
     color: white;
