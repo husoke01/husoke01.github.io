@@ -41,7 +41,7 @@
   a {
     color: white;
   }
-  h1, h2, img, p {
+  h1, h2, h5, img, p {
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
@@ -50,3 +50,18 @@
   body {
     margin: 0px;
   }
+  .blue {
+      color: #0020C2;
+    }
+    .hi {
+      color:red;
+    }
+    .med {
+      color: orange;
+    }
+    .low {
+      color: gray;
+    }
+    .done {
+      text-decoration: line-through;
+    }
