@@ -51,17 +51,30 @@
     margin: 0px;
   }
   .blue {
-      color: #0020C2;
+    color: #0020C2;
+  }
+  .hi {
+    color:red;
     }
-    .hi {
-      color:red;
-    }
-    .med {
-      color: orange;
-    }
-    .low {
-      color: gray;
-    }
+  .med {
+    color: orange;
+  }
+  .low {
+    color: gray;
+  }
     .done {
       text-decoration: line-through;
+    }
+    .white {
+    color: White;
+   }
+    .brown {
+    color: #A52A2A;
+    }
+   .black {
+    color: black;
+   }
+   .cyan {
+    color: aqua;
+    text-decoration: line-through;
     }
