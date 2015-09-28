@@ -50,9 +50,6 @@
   body {
     margin: 0px;
   }
-  .blue {
-    color: #0020C2;
-  }
   .hi {
     color:red;
     }
@@ -63,11 +60,8 @@
     color: gray;
   }
   .done {
-      text-decoration: line-through;
+    text-decoration: line-through;
   }
-    .white {
-    color: White;
-   }
   .brown {
     color: #A52A2A;
   }
