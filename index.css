@@ -62,25 +62,25 @@
   .low {
     color: gray;
   }
-    .done {
+  .done {
       text-decoration: line-through;
-    }
+  }
     .white {
     color: White;
    }
-    .brown {
+  .brown {
     color: #A52A2A;
-    }
-   .black {
+  }
+  .black {
     color: black;
-   }
-   .cyan {
+  }
+  .cyan {
     color: aqua;
     text-decoration: line-through;
-    }
-   #blue {
+  }
+  #blue {
     color: #0020C2;
-    }
-   .aqua {
-     color: aqua;
-    }
+  }
+  .aqua {
+    color: aqua;
+  }
