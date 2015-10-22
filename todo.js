@@ -1,11 +1,10 @@
-addInput = function() {
 var myUl
 var myLi
 var myInput
 var myText
 var myBox
 var myPriority
-
+addInput = function() {
 myBox = document.querySelector("#textbox");
 myPriority = document.querySelector("#priority");
 myUl = document.querySelector("tasklist");
