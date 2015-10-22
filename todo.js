@@ -5,6 +5,8 @@ var myInput
 var myText
 var myBox
 var myPriority
+myBox = document.querySelector("#textbox");
+myPriority = document.querySelector("#priority");
 myUl = document.querySelector("tasklist")''
 myul = appendChild("li");
 myLi = document.createElement("li");
@@ -14,8 +16,6 @@ myLi.appendChild("myText");
 myInput = document.createElement("INPUT");
 myInput.type = checkbox;
 myText = document.createTextNode(myBox.value);
-myBox = document.querySelector("#textbox");
-myPriority = document.querySelector("#priority");
 
 }
 
