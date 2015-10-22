@@ -1,11 +1,23 @@
 addInput = function() {
+var myUl
+var myLi
+var myInput
+var myText
+var myBox
+var myPriority
+myUl = document.querySelector("tasklist")''
+myul = appendChild("li");
+myLi = document.createElement("li");
+myLi.classList.add(myPriority.value);
+myLi.appendChild("myInput");
+myLi.appendChild("myText");
+myInput = document.createElement("INPUT");
+myInput.type = checkbox;
+myText = document.createTextNode(myBox.value);
+myBox = document.querySelector("#textbox");
+myPriority = document.querySelector("#priority");
+
 }
-litem = document.createElement("li");
-chbox = document.createElement("input");
-chbox.type = checkbox;
-litem.className = priority.value;
-
-
 
 
 
