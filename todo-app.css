@@ -26,3 +26,12 @@
         background-color: #0020C2;
         height: 25px;
       }
+      .high {
+        color: red;    
+      }
+      .medium {
+        color: orange;    
+      }
+      .low {
+        color: gray;   
+      }
