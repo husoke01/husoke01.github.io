@@ -1,4 +1,4 @@
-addInput = function() {
+addInput = function(){
 //var priority = document.querySelector('#priority').option.className;
 var myLi = document.createTextNode(document.querySelector('#textbox').value);
 var listItem = document.createElement("li");
@@ -15,10 +15,10 @@ localSave("tasklist");
 }
 completeTask = function(){
   if (this.checked) { 
-  this.parentNode.classList.add("done");
+  this.parentNode.classList.add('#done');
   }
   else {
-  this.parentNode.classList.remove("done");
+  this.parentNode.classList.remove('#done');
   }
   localSave("tasklist");
 }
