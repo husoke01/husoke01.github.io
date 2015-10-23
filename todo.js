@@ -22,7 +22,8 @@ completeTask = function(){
   }
   localSave("tasklist");
 }
-window.onload = function(){
+/*window.onload = function(){
   addTask();
   completeTask();
 }
+*/
