@@ -15,10 +15,10 @@ localSave("tasklist");
 }
 completeTask = function(){
   if (this.checked) { 
-  this.parentNode.classList.add('#done');
+  this.parentNode.classList.add("done");
   }
   else {
-  this.parentNode.classList.remove('#done');
+  this.parentNode.classList.remove("done");
   }
   localSave("tasklist");
 }
