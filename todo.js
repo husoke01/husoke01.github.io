@@ -1,27 +1,37 @@
-var myUl
-var myLi
-var myInput
-var myText
-var myBox
-var myPriority
-addInput = function() {
-myBox = document.querySelector("#textbox");
-myPriority = document.querySelector("#priority");
-myUl = document.querySelector("tasklist");
-myUl = appendChild("li");
-myLi = document.createElement("li");
-myLi.classList.add(myPriority.value);
-myLi.appendChild("myInput");
-myInput = document.createElement("INPUT");
-myInput.type = checkbox;
-myLi.appendChild("myText");
-myText = document.createTextNode(myBox.value);
-}
+ddTask = function() {
+//var priority = document.querySelector('#priority').option.className;
+var myLi = document.createTextNode(document.querySelector('#textbox').value);
+var listitem = document.createElement("li");
+var chk = document.createElement("input");
+chk.type = "checkbox";
+myLi.appendChild(cbox);
+myLi.appendChild(litext);
+//listitem.className = priority;
+listitem.className = document.querySelector('#priority').value;
+cbhk.onclick = completeTask;
+var ulsection1 = document.querySelector('#tasklist');
+ulsection1.appendChild(listitem);
+localSave("tasklist");
 
-doneTask = function() {
-  if() {
-    this.parentNode.classList.add("done");
-  } else {
-    this.parentNode.classList.remove("done");
-  }
+
+
+
 }
+completeTask = function(){
+  if (this.checked) { 
+  this.parentNode.classList.add("done");
+  }
+  else {
+  this.parentNode.classList.remove("done");
+  }
+  localSave("tasklist");
+  
+}
+window.onload = function(){
+  restoreList("tasklist", completeTask);
+}
+/*window.onload = function(){
+  addTask();
+  completeTask();
+}
+*/
