@@ -1,4 +1,4 @@
-ddTask = function() {
+addInput = function() {
 //var priority = document.querySelector('#priority').option.className;
 var myLi = document.createTextNode(document.querySelector('#textbox').value);
 var listitem = document.createElement("li");
