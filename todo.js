@@ -22,9 +22,6 @@ completeTask = function(){
   }
   localSave("tasklist");
 }
-window.onload = function(){
-  restoreList("tasklist", completeTask);
-}
 /*window.onload = function(){
   addTask();
   completeTask();
