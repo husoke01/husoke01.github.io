@@ -8,14 +8,10 @@ listitem.appendChild(chk);
 listitem.appendChild(myLi);
 //listitem.className = priority;
 listitem.className = document.querySelector('#priority').value;
-cbhk.onclick = completeTask;
-var ulsection1 = document.querySelector('#tasklist');
-ulsection1.appendChild(listitem);
+chk.onclick = completeTask;
+var myul = document.querySelector('#tasklist');
+myul.appendChild(listitem);
 localSave("tasklist");
-
-
-
-
 }
 completeTask = function(){
   if (this.checked) { 
@@ -25,7 +21,6 @@ completeTask = function(){
   this.parentNode.classList.remove("done");
   }
   localSave("tasklist");
-  
 }
 window.onload = function(){
   restoreList("tasklist", completeTask);
