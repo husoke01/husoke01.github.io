@@ -1,12 +1,12 @@
 addInput = function(){
-var priority = document.querySelector('#priority').option.className;
+//var priority = document.querySelector('#priority').option.className;
 var myLi = document.createTextNode(document.querySelector('#textbox').value);
 var listItem = document.createElement("li");
 var chk = document.createElement("input");
 chk.type = "checkbox";
 listItem.appendChild(chk);
 listItem.appendChild(myLi);
-listitem.className = priority;
+//listitem.className = priority;
 listItem.className = document.querySelector('#priority').value;
 chk.onclick = completeTask;
 var myUl = document.querySelector('#tasklist');
