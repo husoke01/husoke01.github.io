@@ -17,7 +17,6 @@ completeTask = function(){
   if (this.checked) { 
   this.parentNode.classList.add("done");
   }
-  localSave("tasklist");
   else {
   this.parentNode.classList.remove("done");
   }
