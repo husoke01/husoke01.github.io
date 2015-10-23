@@ -36,3 +36,9 @@
       .low {
         color: gray;   
       }
+      .done {
+        text-decoration: line-through;
+      }
+      #tasklist {
+        list-style: none;
+      }
