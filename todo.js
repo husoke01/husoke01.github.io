@@ -1,16 +1,16 @@
 addInput = function() {
 //var priority = document.querySelector('#priority').option.className;
 var myLi = document.createTextNode(document.querySelector('#textbox').value);
-var listitem = document.createElement("li");
+var listItem = document.createElement("li");
 var chk = document.createElement("input");
 chk.type = "checkbox";
-listitem.appendChild(chk);
-listitem.appendChild(myLi);
+listItem.appendChild(chk);
+listItem.appendChild(myLi);
 //listitem.className = priority;
-listitem.className = document.querySelector('#priority').value;
-chk.onclick = completeTask;
-var myul = document.querySelector('#tasklist');
-myul.appendChild(listitem);
+listItem.className = document.querySelector('#priority').value;
+chk.onClick = completeTask;
+var myUl = document.querySelector('#tasklist');
+myUl.appendChild(listItem);
 localSave("tasklist");
 }
 completeTask = function(){
