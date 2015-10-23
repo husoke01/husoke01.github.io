@@ -8,7 +8,7 @@ listItem.appendChild(chk);
 listItem.appendChild(myLi);
 //listitem.className = priority;
 listItem.className = document.querySelector('#priority').value;
-chk.onClick = completeTask;
+chk.onclick = completeTask;
 var myUl = document.querySelector('#tasklist');
 myUl.appendChild(listItem);
 localSave("tasklist");
